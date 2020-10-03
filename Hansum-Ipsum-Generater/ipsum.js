@@ -54,7 +54,7 @@ form.addEventListener("submit", function (e) {
     const m = Math.floor(k)
     console.log(m)
 
-    let tempText = text.slice(0, m);
+    let tempText = text.slice(1, m);
     result.innerHTML = tempText;
 
     // result.innerHTML = "Please enter a value between 1 - 27"
